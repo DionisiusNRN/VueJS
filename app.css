@@ -1,0 +1,9 @@
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+/* enter: menampilkan atau masuk */
+/* leave: menghilangkan atau menyembunyikan */
+.fade-enter-active, .fade-leave-active {
+    transition: all 1s ease-in-out;
+}
